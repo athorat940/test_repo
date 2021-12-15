@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gh auth login --with-token < secret.txt
+
 cd /opt/test
 git clone https://github.com/athorat940/jenkins-pipeline-tutorial.git
 cd /opt/test/jenkins-pipeline-tutorial
