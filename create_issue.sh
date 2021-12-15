@@ -1,5 +1,5 @@
 #!/bin/bash
-
+gh auth login > secret.txt
 rm -rf jenkins-pipeline-tutorial.git
 #cd /opt/test
 git clone https://github.com/athorat940/jenkins-pipeline-tutorial.git
